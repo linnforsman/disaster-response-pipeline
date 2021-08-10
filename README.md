@@ -1,4 +1,5 @@
 # Disaster Response Pipeline Project
+![Intro Picture](app/static/Disaster_Project.png)
 ## Installation
 ```
 https://github.com/linnforsman/disaster-response-pipeline.git
@@ -20,3 +21,8 @@ https://github.com/linnforsman/disaster-response-pipeline.git
 
 ## Licensing, Authors Acknowledgements
 The data was provided by [Figure Eight](https://appen.com).
+## Screenshots
+1. This is an example of a message we can type to test the performance of the model.
+![Disaster Response Pipeline](app/static/Disaster_R_Project_test1.png)
+2. After clicking Classify Message, we can see the categories which the message belongs to highlighted in green.
+![Disaster Response Pipeline](app/static/Result_Disaster_2.png)
