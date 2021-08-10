@@ -1,5 +1,14 @@
 # Disaster Response Pipeline Project
 ![Intro Picture](app/static/Disaster_Project.png)
+
+## Table of Contents
+1. [Installation](#installation)
+	1. [Instructions](#instructions)
+2. [Project Motivation](#project-motivation)
+3. [File Descriptions](#file-descriptions)
+4. [Results](#results)
+5. [Licensing, Authors, Acknoledgements](#licensing-authors-acknowledgements)
+
 ## Installation
 git clone the repository
 ```
