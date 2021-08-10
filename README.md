@@ -47,6 +47,9 @@ data
 models
 |- train_classifier.py
 |- classifier.pkl # saved model
+notebooks
+|- ETL Pipeline Preparation.ipynb # Jupyter Notebook
+|- ML Pipeline Preparation.ipynb # Jupyter Notebook
 README.md
 
 ```
