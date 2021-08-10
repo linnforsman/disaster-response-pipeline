@@ -6,6 +6,7 @@
 	1. [Instructions](#instructions)
 2. [Project Motivation](#project-motivation)
 3. [File Descriptions](#file-descriptions)
+	1. [File Structure](#file-structure)
 4. [Results](#results)
 5. [Licensing, Authors, Acknoledgements](#licensing-authors-acknowledgements)
 
@@ -31,6 +32,25 @@ This project is part of the Data Scientist Nanodegree by Udacity in collaboratio
 2. ``models/train_classifier.py``: This file contains the ML pipeline that trains the classifier and saves it to the database.
 3. ``app/templates/*.html``: This directory contains the html templates for the web app.
 4. ``run.py``: This file contains the flask app that runs the web app.
+### File Structure
+``` 
+app
+| - template
+| |- master.html # main page of web app
+| |- go.html # classification result page of web app
+|- run.py # Flask file that runs app
+data
+|- disaster_categories.csv # data to process
+|- disaster_messages.csv # data to process
+|- process_data.py
+|- InsertDatabaseName.db # database to save clean data to
+models
+|- train_classifier.py
+|- classifier.pkl # saved model
+README.md
+
+```
+
 ## Results
 1. This is an example of a message we can type to test the performance of the model.
 ![Disaster Response Pipeline](app/static/Disaster_R_Project_test1.png)
