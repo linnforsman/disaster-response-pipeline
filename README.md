@@ -13,6 +13,7 @@ https://github.com/linnforsman/disaster-response-pipeline.git
 2. Run the following command in the app's directory to run your web app: `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
 ## Project Motivation
 
 ## File Descriptions
@@ -23,4 +24,4 @@ https://github.com/linnforsman/disaster-response-pipeline.git
 2. After clicking Classify Message, we can see the categories which the message belongs to highlighted in green.
 ![Disaster Response Pipeline](app/static/Result_Disaster_2.png)
 ## Licensing, Authors Acknowledgements
-The data was provided by [Figure Eight](https://appen.com).
+The data was provided by [Figure Eight](https://appen.com) in collaboration with [Udacity]().
