@@ -8,7 +8,7 @@
 3. [File Descriptions](#file-descriptions)
 	1. [File Structure](#file-structure)
 4. [Results](#results)
-5. [Licensing, Authors, Acknoledgements](#licensing-authors-acknowledgements)
+5. [Licensing, Authors, Acknowledgements](#licensing-authors-acknowledgements)
 
 ## Installation
 git clone the repository
