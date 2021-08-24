@@ -15,4 +15,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "dsnd-dr-pipeline" #Must be unique in Heroku
           heroku_email: "linnforsman@protonmail.com"
-          procfile: "web: npm start"
+          procfile: "web gunicorn run:app"
