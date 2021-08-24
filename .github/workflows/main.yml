@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master # Changing the branch here would also work
+      - preview # Changing the branch here would also work
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: linnforsman/heroku-deploy@v3.12.12 # This is the action
         with:
-          heroku_api_key: ${{secrets.DR_PIPELINE}}
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "dsnd-dr-pipeline" #Must be unique in Heroku
           heroku_email: "linnforsman@protonmail.com"
           procfile: "web: npm start"
