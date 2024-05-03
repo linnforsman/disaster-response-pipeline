@@ -1,3 +1,6 @@
+> [!NOTE]
+> Since Heroku cloud services changed their pricing tiers on their services, the project's deployment is not currently live. 
+
 # Disaster Response Pipeline Project
 ![Intro Picture](app/static/Disaster_Project.png)
 
